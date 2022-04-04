@@ -1,0 +1,7 @@
+@import "./base/_global.css";
+@import "./modules/_primary-nav.css";
+
+.box {
+  width: 500px;
+  padding: 0.5em;
+}
