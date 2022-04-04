@@ -4,4 +4,16 @@
 .box {
   width: 500px;
   padding: 0.5em;
+  border: 5px solid black;
+  border-radius: 10px;
+  background: #1b7cb0 url("../images/balloons.jpg") top left/cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
