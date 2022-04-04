@@ -1,0 +1,18 @@
+@import "../styles/base/_global.css";
+@import "../styles/modules/_primary-nav.css";
+
+.box {
+  width: 300px;
+  padding: 0.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid lightblue;
+  border-radius: 20px 0 40px 0;
+}
+
+h2 {
+  padding: 0 45px;
+  background: url("../images/star.png") left center no-repeat, url("../images/star.png") right center repeat-y;
+}
